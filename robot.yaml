@@ -1,0 +1,16 @@
+tasks:
+  CreateWorkItems:
+    robotTaskName: Split orders file
+  ConsumeItems:
+    #robotTaskName: Load and Process All Orders
+    shell: python -m robot --report NONE --outputdir output --logtitle "Task log" --expandkeywords name:*Screenshot* consumer.robot
+
+artifactsDir: output
+condaConfigFile: conda.yaml
+ignoreFiles: [.gitignore]
+
+PATH: [.]
+PYTHONPATH:
+  - keywords
+  - libraries
+  - variables

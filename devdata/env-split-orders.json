@@ -1,0 +1,7 @@
+{
+  "RPA_WORKITEMS_ADAPTER": "RPA.Robocorp.WorkItems.FileAdapter",
+  "RPA_INPUT_WORKITEM_PATH": "%{ROBOT_ROOT}/devdata/work-items-in/split-orders-file-test-input/work-items.json",
+  "RPA_OUTPUT_WORKITEM_PATH": "%{ROBOT_ROOT}/devdata/work-items-out/last-run/work-items.json",
+  "RPA_SECRET_MANAGER": "RPA.Robocloud.Secrets.FileSecrets",
+  "RPA_SECRET_FILE":"C:\\Users\\matti\\Documents\\RBCORP\\example-web-store-work-items\\devdata\\vault.json"
+}
